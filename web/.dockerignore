@@ -1,0 +1,8 @@
+# 不要把宿主機的 node_modules 複製進映像檔——
+# Dockerfile 的 COPY . . 會用宿主機版本覆蓋容器內 npm install 的結果
+node_modules
+
+# Python venv，與前端無關，且換環境路徑會失效
+web_env
+
+.claude

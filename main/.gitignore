@@ -1,0 +1,8 @@
+# 內含 LLM api_key 與自簽憑證，請勿進版控
+model_config.json
+*.pem
+.venv/
+__pycache__/
+*.pyc
+*.m4a
+main_env/

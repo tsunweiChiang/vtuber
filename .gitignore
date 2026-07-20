@@ -1,0 +1,20 @@
+# Python 虛擬環境
+vtuber_env/
+main/main_env/
+.venv/
+
+# Python 快取
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+web/dist/
+
+# 機密檔案（LLM api_key、自簽憑證）
+model_config.json
+*.pem
+
+# 其他
+*.m4a
+.DS_Store
